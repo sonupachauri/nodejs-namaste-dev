@@ -28,4 +28,11 @@
 ### Project Setup & Development
  - npm init
  - create src folder, inside create app.js
- - install express npm install express --save
+ - npm install express --save
+ - npm install nodemon
+
+###### Add Below in package.json file
+   - "start":"node src/app.js",
+   - "test": "echo \"Error: no test specified\" && exit 1",
+   - "dev":"nodemon src/app.js"
+Order of route matter when we use app.use()
