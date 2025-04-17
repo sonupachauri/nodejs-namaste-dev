@@ -1,0 +1,14 @@
+{
+  "name": "dev-tinder",
+  "version": "1.0.0",
+  "description": "1. Create an account\r 2. Login\r 3. Update your profile\r 4. Feed page- explore\r 5. send connection request\r 6. see our matches\r 7. See the request we have sent/recieve\r 8. Update your profile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
